@@ -1,0 +1,71 @@
+/* Global styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Container of examples */
+.example-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Individual example boxes */
+.example-box {
+    box-sizing: border-box;
+    width: 48%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid purple;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.example-box:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+/* Buttons */
+button {
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: purple;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+/* Animated div */
+#animated-div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    margin-top: 20px;
+    animation: moveAcross 4s linear infinite;
+}
+
+/* Keyframes for animation */
+@keyframes moveAcross {
+    0% { left: 0; }
+    50% { left: calc(100% - 100px); }
+    100% { left: 0; }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS HTML DOM Project</title>
+    <!-- Linking external stylesheet for styling -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <h1>JS HTML DOM Project</h1>
+
+    <div class="example-container">
+
+            <!-- Example 1: getElementById property and innerHTML method -->
+            <div class="example-box" id="example-1" onclick="changeText(this)">Click me for changing text!</div>
+    
+            <!-- Example 2: getElementTagName property and innerHTML method -->
+            <nav class="example-box" onclick="changeText(this)">I'm a navigation element. Click me for enigmatic transformations!</nav>
+    
+            <!-- Example 3: getElementClassName property and innerHTML method -->
+            <div class="example-box example-3" onclick="changeText(this)">Click me for more changing text!</div>
+    
+            <!-- Example 4: Change the value of an HTML img attribute -->
+            <img class="example-box" id="example-4" src="https://preview.redd.it/sung-jin-woo-or-gojo-satoru-who-is-better-looking-v0-4ldmb034af2b1.jpg?width=640&crop=smart&auto=webp&s=bcf6387b5c1f67e12f3dbeec1af37e6edbf9fc4f" alt="Example 4" onclick="changeImage(this)">
+    
+            <!-- Example 5: Change the color style with a button -->
+            <div class="example-box" id="example-5" style="background-color: red;"></div>
+            <button onclick="changeColor()">Unleash the Magic Color!</button>
+    
+            <!-- Example 6: Create an Animation -->
+            <div class="example-box" id="animated-div"></div>
+    
+            <!-- Example 7: Use the onclick event to change text -->
+            <p class="example-box" id="example-7" onclick="changeText(this)">Click me to reveal a hidden message!</p>
+    
+            <!-- Example 8: Use the onclick event to call a function -->
+            <button class="example-box" id="example-8" onclick="callFunction()">Click to make the function work</button>
+    
+    
+            <!-- Example 10: Use onmouseover and onmouseout events -->
+            <div class="example-box" id="example-10" onmouseover="mouseOverFunction(this)" onmouseout="mouseOutFunction(this)">Hover me for a something cool</div>
+    
+            <!-- Example 11: Use onmousedown and onmouseup events -->
+            <div class="example-box" id="example-11" onmousedown="mouseDownFunction(this)" onmouseup="mouseUpFunction(this)">Click and hold for a secret spectacle!</div>
+    
+            <!-- Example 12: Use addEventListener to call a function -->
+            <button class="example-box" id="example-12">Click me for a addEventListener for something really cool to happen</button>
+    
+            <!-- Example 13: Use multiple addEventListener methods -->
+            <button class="example-box" id="example-13">Click me for a super secret message</button>
+    
+            <!-- Example 14: Add comments in the source code -->
+            <!-- JS HTML DOM Extravaganza: Unleash the magic of JavaScript and HTML with these fun and quirky examples! -->
+    
+        </div>
+
+    <!-- Linking external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
